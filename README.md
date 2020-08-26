@@ -37,7 +37,7 @@ as illustrated in the graphic below.
 
 - **Registration:** On Monday at 7:00, the registration phase starts. From this point on, lecture tickets are
   automatically handed out to the students who requested a ticket during the presale phase. This assignment is in
-  principle random, but in odd weeks students with last name starting with the letters `A` through `K` will be
+  principle random, but in odd weeks students with last names starting with the letters `A` through `K` will be
   prioritized, and in even weeks students with last names starting with the letters `L` through `Z`. The registration
   phase stays open until the end of the lecture, and as long as the room is not full, tickets will be created for
   students who newly register using the GitLab issue.
