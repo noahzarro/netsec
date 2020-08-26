@@ -61,9 +61,9 @@ You can always find the currently active lecture registration issue
 
 ### Seat numbering
 
-In order to make sure that we can easily resolve seating conflicts, we have split the lecture hall in to _half rows.
+In order to make sure that we can easily resolve seating conflicts, we have split the lecture hall in to _half rows_.
 When a seat is assigned to you, you will receive a seat number looking like this: `4L (3)`. This means that
-you are assigned a seat in the left half (seen from the front) of the 4th row. You may sit anywhere in this half row.
+you are assigned a seat in the left half (seen from the back) of the 4th row. You may sit anywhere in this half row.
 The `(3)` is intended mainly for our reference to make certain that lecture tickets are unique.
 
 See the image below to see how the half rows are layed out.
