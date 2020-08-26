@@ -1,7 +1,7 @@
 # Network Security (NetSec) 2020 User Manual
 
-Welcome to the NetSec course! This GitLab project wil serve as the main point of (online) interaction between students
-and the course team. Concretely, using this project you will
+Welcome to the NetSec course! For this course, GitLab wil serve as the main point of (online) interaction between
+students and the course team. Concretely, using this GitLab you will
 
 - receive lecture materials such as slides, exercises, and old exams;
 - be able to ask question about lecture content, projects, administrative issues, ...;
@@ -11,6 +11,7 @@ and the course team. Concretely, using this project you will
 Each of these items are discussed in more detail below.
 
 ### Useful links
+- [The issue repository](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues/-/issues)
 - [Course webpage](https://netsec.ethz.ch/courses/netsec-2020/)
 - [Course catalog page](http://vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=141460&semkez=2020W&ansicht=KATALOGDATEN)
 
@@ -56,7 +57,7 @@ Lecture 2                  :         des3, 2020-09-22:10,2020-09-22:12
 ```
 
 You can always find the currently active lecture registration issue
-[here](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-students/-/issues?label_name%5B%5D=lecture-registration).
+[here](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues/-/issues?label_name%5B%5D=lecture-registration).
 
 ### Seat numbering
 
@@ -78,8 +79,8 @@ Every lecture and exercise session will be live streamed and a recording will be
 still awaiting information from ETH about how this streaming will / should take place.
 
 # Asking questions
-If you want to ask a question about any aspect the course, please use the [issue tracker of this
-project](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-students/-/issues).
+If you want to ask a question about any aspect the course, please use the [issue
+tracker](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues/-/issues).
 
 If your question does not contains personal or sensitive information, we encourage you to make the issue public. If you
 are uncomfortable with your question being visible to everyone, you can choose to make your issue
