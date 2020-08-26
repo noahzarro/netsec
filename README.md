@@ -10,6 +10,10 @@ and the course team. Concretely, using this project you will
 
 Each of these items are discussed in more detail below.
 
+### Useful links
+- [Course webpage](https://netsec.ethz.ch/courses/netsec-2020/)
+- [Course catalog page](http://vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=141460&semkez=2020W&ansicht=KATALOGDATEN)
+
 ## Lecture Tickets
 
 ### Lecture Registration
@@ -86,6 +90,8 @@ If your question does contain personal or sensitive information, please mark the
 
 Depending on how the lecture live streams will look like, we might provide another method for more real-time interaction
 during the lecture.
+
+***Please do not send us questions by email.***
 
 # Handing in exercises
 You can hand in exercises by creating a **confidential** issue with a title starting with `[exercise-hand-in]`. You can
