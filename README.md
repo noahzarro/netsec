@@ -46,7 +46,7 @@ as illustrated in the graphic below.
 ```mermaid
 gantt
 dateFormat  YYYY-MM-DD:HH
-axisFormat  %A
+axisFormat  %a
 title Lecture Registration Timeline
 
 Presale (A-K prioritized)  :         des1, 2020-09-08:12,2020-09-14:07
