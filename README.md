@@ -1,6 +1,6 @@
 # Network Security (NetSec) 2020 User Manual
 
-Welcome to the NetSec course! For this course, GitLab wil serve as the main point of (online) interaction between
+Welcome to the NetSec course! For this course, GitLab will serve as the main point of (online) interaction between
 students and the course team. Concretely, using this GitLab you will
 
 - receive lecture materials such as slides, exercises, and old exams;
@@ -10,7 +10,8 @@ students and the course team. Concretely, using this GitLab you will
 
 Each of these items are discussed in more detail below.
 
-### Useful links
+### Useful Links
+
 - [The issue repository](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues/-/issues)
 - [Course webpage](https://netsec.ethz.ch/courses/netsec-2020/)
 - [Course catalog page](http://vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=141460&semkez=2020W&ansicht=KATALOGDATEN)
@@ -33,7 +34,7 @@ as illustrated in the graphic below.
 
 - **Presale:** Right after each lecture, the presale phase for the next lecture begins. During the presale phase,
   everyone can request a lecture ticket, but no tickets will be issues yet. During the presale phase you can also cancel
-  your request be removing your thumbs up from the issue.
+  your request by removing your thumbs up from the issue.
 
 - **Registration:** On Monday at 7:00, the registration phase starts. From this point on, lecture tickets are
   automatically handed out to the students who requested a ticket during the presale phase. This assignment is in
@@ -45,7 +46,7 @@ as illustrated in the graphic below.
 ```mermaid
 gantt
 dateFormat  YYYY-MM-DD:HH
-axisFormat  %A 
+axisFormat  %A
 title Lecture Registration Timeline
 
 Presale (A-K prioritized)  :         des1, 2020-09-08:12,2020-09-14:07
@@ -59,9 +60,9 @@ Lecture 2                  :         des3, 2020-09-22:10,2020-09-22:12
 You can always find the currently active lecture registration issue
 [here](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues/-/issues?label_name%5B%5D=lecture-registration).
 
-### Seat numbering
+### Seat Numbering
 
-In order to make sure that we can easily resolve seating conflicts, we have split the lecture hall in to _half rows_.
+In order to make sure that we can easily resolve seating conflicts, we have split the lecture hall into _half rows_.
 When a seat is assigned to you, you will receive a seat number looking like this: `4L (3)`. This means that
 you are assigned a seat in the left half (seen from the back) of the 4th row. You may sit anywhere in this half row.
 The `(3)` is intended mainly for our reference to make certain that lecture tickets are unique.
@@ -71,29 +72,33 @@ See the image below to see how the half rows are layed out.
 ![CHN C 14 room layout](chn_c_14_annotated.png)
 
 ## Exercise Tickets
+
 Because the exercise room should be large enough to accommodate everyone, we are not running a ticket system for the
 exercise sessions. Instead, you can just show up as normal.
 
 ## Lecture and Exercise Streams
-Every lecture and exercise session will be live streamed and a recording will be made available. At this point we are
+
+Every lecture and exercise session will be streamed live and a recording will be made available. At this point we are
 still awaiting information from ETH about how this streaming will / should take place.
 
-# Asking questions
+## Asking Questions
+
 If you want to ask a question about any aspect the course, please use the [issue
 tracker](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues/-/issues).
 
-If your question does not contains personal or sensitive information, we encourage you to make the issue public. If you
+If your question does not contain personal or sensitive information, we encourage you to make the issue public. If you
 are uncomfortable with your question being visible to everyone, you can choose to make your issue
 [confidential](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html) by selecting the checkbox on the
 new issue page. Confidential issues cannot be seen by other students.
 
 If your question does contain personal or sensitive information, please mark the issue as confidential.
 
-Depending on how the lecture live streams will look like, we might provide another method for more real-time interaction
+Depending on what the lecture live streams will look like, we might provide another method for more real-time interaction
 during the lecture.
 
 ***Please do not send us questions by email.***
 
-# Handing in exercises
+## Handing in Exercises
+
 You can hand in exercises by creating a **confidential** issue with a title starting with `[exercise-hand-in]`. You can
-attach your solutions to this issue. 
+attach your solutions to this issue.
