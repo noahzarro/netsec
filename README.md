@@ -69,7 +69,7 @@ The `(3)` is intended mainly for our reference to make certain that lecture tick
 
 See the image below to see how the half rows are layed out.
 
-![CHN C 14 room layout](chn_c_14_annotated.png)
+![CHN C 14 room layout](chn_c_14_annotated.jpg)
 
 ## Exercise Tickets
 
