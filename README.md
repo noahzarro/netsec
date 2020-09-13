@@ -38,8 +38,8 @@ as illustrated in the graphic below.
 
 - **Registration:** On Monday at 7:00, the registration phase starts. From this point on, lecture tickets are
   automatically handed out to the students who requested a ticket during the presale phase. This assignment is in
-  principle random, but in odd weeks students with last names starting with the letters `A` through `K` will be
-  prioritized, and in even weeks students with last names starting with the letters `L` through `Z`. The registration
+  principle random, but in odd weeks students with last names starting with the letters `L` through `Z` will be
+  prioritized, and in even weeks students with last names starting with the letters `A` through `K`. The registration
   phase stays open until the end of the lecture, and as long as the room is not full, tickets will be created for
   students who newly register using the GitLab issue.
 
@@ -49,10 +49,10 @@ dateFormat  YYYY-MM-DD:HH
 axisFormat  %a
 title Lecture Registration Timeline
 
-Presale (A-K prioritized)  :         des1, 2020-09-08:12,2020-09-14:07
+Presale (L-Z prioritized)  :         des1, 2020-09-08:12,2020-09-14:07
 Registration               :         des2, 2020-09-14:07,2020-09-15:12
 Lecture 1                  :         des3, 2020-09-15:10,2020-09-15:12
-Presale (L-Z prioritized)  :         des1, 2020-09-15:12,2020-09-21:07
+Presale (A-K prioritized)  :         des1, 2020-09-15:12,2020-09-21:07
 Registration               :         des2, 2020-09-21:07,2020-09-22:12
 Lecture 2                  :         des3, 2020-09-22:10,2020-09-22:12
 ```
