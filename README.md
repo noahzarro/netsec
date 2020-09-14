@@ -15,6 +15,9 @@ Each of these items are discussed in more detail below.
 - [The issue repository](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues/-/issues)
 - [Course webpage](https://netsec.ethz.ch/courses/netsec-2020/)
 - [Course catalog page](http://vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=141460&semkez=2020W&ansicht=KATALOGDATEN)
+- [Remote lecture questions](https://course.netsec.inf.ethz.ch/questions)
+- [CHN C 14 livestream](https://video.ethz.ch/live/lectures/zentrum/chn/chn-c-14.html)
+- [HG F 1 livestream](https://video.ethz.ch/live/lectures/zentrum/hg/hg-f-1/projector.html)
 
 ## Lecture Tickets
 
