@@ -90,7 +90,7 @@ Routing algorithms are at the heart of routers. Open Shortest Path First (OSPF),
 ##### Question 7.1 (5 points)
 Consider the following network. The square nodes are local-area networks (LANs), while the round nodes are routers. LANs can only receive and generate packets, they can't route incoming traffic. Fill in the routing tables below.
 
-![OSPF network](assets/ospf-network.png)
+![OSPF network](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-resources/-/raw/master/exercises/assets/ospf-network.png)
 
 **Solution**:
 
