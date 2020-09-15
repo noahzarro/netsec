@@ -24,7 +24,9 @@ Edward wants to prove to Laura he really is the sender of a message. What securi
 *Solution*: Your solution here... 
 
 **1.2.** (2 points)
-Edward wants to send a secret message to Glenn---they cannot meet to exchange a key, but they deem it unlikely for the NSA to tamper with their messages on the fly~\footnote{Not historically accurate}. What security property are Edward and Glenn trying to achieve? Which cryptographic primitives could they use?
+Edward wants to send a secret message to Glenn---they cannot meet to exchange a key, but they deem it unlikely for the NSA to tamper with their messages on the fly[^1]. What security property are Edward and Glenn trying to achieve? Which cryptographic primitives could they use?
+
+[^1]: Not historically accurate
 
 *Solution*:    Your solution here... 
 
@@ -103,7 +105,7 @@ Routing algorithms are at the heart of routers. Open Shortest Path First (OSPF),
 **7.1.** (5 points)
 Consider the following network. The square nodes are local-area networks (LANs), while the round nodes are routers. LANs can only receive and generate packets, they can't route incoming traffic. Fill in the routing tables below.
 
-![OSPF network](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-resources/-/raw/master/exercises/assets/ospf-network.png)
+![OSPF network](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-resources/-/raw/master/exercises/ex1-refresher/assets/ospf-network.png)
 
 *Solution*:
 
@@ -176,3 +178,5 @@ You want to isolate the flows N1 $`\rightarrow`$ N3 and N1 $`\rightarrow`$ N2. D
 An external authority forces you to add a static route (with maximum priority) that sends any packet that reaches R5 to the link R5 $`\rightarrow`$ R4. Ignoring the longer routes and the unused links, what problems can arise?
 
 *Solution*: Your solution here...
+
+---
