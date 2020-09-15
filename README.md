@@ -81,8 +81,11 @@ exercise sessions. Instead, you can just show up as normal.
 
 ## Lecture and Exercise Streams
 
-Every lecture and exercise session will be streamed live and a recording will be made available. At this point we are
-still awaiting information from ETH about how this streaming will / should take place.
+Every lecture and exercise session will be streamed live and a recording will be made available through the ETH video portal.
+
+- [Remote lecture questions](https://course.netsec.inf.ethz.ch/questions)
+- [CHN C 14 livestream](https://video.ethz.ch/live/lectures/zentrum/chn/chn-c-14.html)
+- [HG F 1 livestream](https://video.ethz.ch/live/lectures/zentrum/hg/hg-f-1/projector.html)
 
 ## Asking Questions
 
