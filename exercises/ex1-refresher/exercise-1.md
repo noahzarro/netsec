@@ -1,5 +1,14 @@
 # Exercise sheet 1: Crypto and Networks refresher
 
+*15 September 2020*
+
+Handing in this exercise sheet is optional. You can hand in by generating an issue on [the GitLab issue repo](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues). The issue
+title must be in the form `[hand-in] Exercise 1 {YOUR NETHZ ID}`; paste your solution in the body of the issue.
+The issue will be then automatically tagged and made private.
+If you want individual feedback for your solutions, you have to hand in your
+solution by the **Wednesday following exercise publication, September 23, at 23:59**. Answer the questions in the spaces
+provided on the following document.
+
 ## Crypto refresher
 
 ### Question 1 
