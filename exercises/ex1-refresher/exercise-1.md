@@ -58,7 +58,7 @@ What could go wrong?
 *Solution*: Your solution here... 
 
 **4.2 Bonus question.** (3 points)
-You learn from your past mistakes and decide to appropriately MAC all commands before encrypting them. Commands are padded to exactly fit in a block using standard PKCS7 padding. The server will report and error if the MAC verification fails, and a different error if padding verification fails.
+You learn from your past mistakes and decide to appropriately MAC all commands before encrypting them. Commands are padded to exactly fit in a block using standard PKCS7 padding. The server will report and error if the MAC verification fails, and a different error if padding verification fails. What could still go wrong?
 
 *Solution*: Your solution here... 
 
