@@ -108,5 +108,5 @@ during the lecture.
 
 ## Handing in Exercises
 
-You can hand in exercises by creating a **confidential** issue with a title starting with `[exercise-hand-in]`. You can
-attach your solutions to this issue.
+You can hand in exercises by creating a **confidential** issue with a title starting with `[exercise-hand-in]`. You should use the filled in exercise template
+as the body of the issue.
