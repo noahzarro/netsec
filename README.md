@@ -18,6 +18,7 @@ Each of these items are discussed in more detail below.
 - [Remote lecture questions](https://course.netsec.inf.ethz.ch/questions)
 - [CHN C 14 livestream](https://video.ethz.ch/live/lectures/zentrum/chn/chn-c-14.html)
 - [HG F 1 livestream](https://video.ethz.ch/live/lectures/zentrum/hg/hg-f-1/projector.html)
+- [Stream recordings](https://video.ethz.ch/lectures/d-infk/2020/autumn/263-4640-00L.html)
 
 ## Lecture Tickets
 
@@ -86,6 +87,7 @@ Every lecture and exercise session will be streamed live and a recording will be
 - [Remote lecture questions](https://course.netsec.inf.ethz.ch/questions)
 - [CHN C 14 livestream](https://video.ethz.ch/live/lectures/zentrum/chn/chn-c-14.html)
 - [HG F 1 livestream](https://video.ethz.ch/live/lectures/zentrum/hg/hg-f-1/projector.html)
+- [Stream recordings](https://video.ethz.ch/lectures/d-infk/2020/autumn/263-4640-00L.html)
 
 ## Asking Questions
 
