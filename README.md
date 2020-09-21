@@ -21,6 +21,34 @@ Each of these items are discussed in more detail below.
 - [HG F 1 livestream](https://video.ethz.ch/live/lectures/zentrum/hg/hg-f-1/projector.html)
 - [Stream recordings](https://video.ethz.ch/lectures/d-infk/2020/autumn/263-4640-00L.html)
 
+## Asking Questions
+***Please do not send us questions by email.***
+
+### Issue Tracker
+
+If you want to ask a question about any aspect the course, please use the [issue
+tracker](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues/-/issues).
+
+If your question does not contain personal or sensitive information, we encourage you to make the
+issue public. If you are uncomfortable with your question being visible to everyone, you can choose
+to make your issue
+[confidential](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html) by selecting
+the checkbox on the new issue page. Confidential issues cannot be seen by other students.
+
+If your question does contain personal or sensitive information, please mark the issue as
+confidential.
+
+### During the Lecture or Exercise session
+
+During the lecture or exercise sessions students can ask questions using
+https://course.netsec.inf.ethz.ch/questions. We will ensure that this document will be monitored by
+someone present in the lecture room.
+
+## Handing in Exercises
+
+You can hand in exercises by creating a **confidential** issue with a title starting with
+`[exercise-hand-in]`. You should use the filled in exercise template as the body of the issue.
+
 ## Lecture Tickets
 
 ### Lecture Registration
@@ -93,31 +121,3 @@ through the ETH video portal.
 - [CHN C 14 livestream](https://video.ethz.ch/live/lectures/zentrum/chn/chn-c-14.html)
 - [HG F 1 livestream](https://video.ethz.ch/live/lectures/zentrum/hg/hg-f-1/projector.html)
 - [Stream recordings](https://video.ethz.ch/lectures/d-infk/2020/autumn/263-4640-00L.html)
-
-## Asking Questions
-***Please do not send us questions by email.***
-
-### Issue Tracker
-
-If you want to ask a question about any aspect the course, please use the [issue
-tracker](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues/-/issues).
-
-If your question does not contain personal or sensitive information, we encourage you to make the
-issue public. If you are uncomfortable with your question being visible to everyone, you can choose
-to make your issue
-[confidential](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html) by selecting
-the checkbox on the new issue page. Confidential issues cannot be seen by other students.
-
-If your question does contain personal or sensitive information, please mark the issue as
-confidential.
-
-### During the Lecture or Exercise session
-
-During the lecture or exercise sessions students can ask questions using
-https://course.netsec.inf.ethz.ch/questions. We will ensure that this document will be monitored by
-someone present in the lecture room.
-
-## Handing in Exercises
-
-You can hand in exercises by creating a **confidential** issue with a title starting with
-`[exercise-hand-in]`. You should use the filled in exercise template as the body of the issue.
