@@ -98,18 +98,7 @@ that the Government has its own CA?
 
 *Solution:* Your solution here
 
-**2.3.** (1 points)
-Once a certificate is published in the CT, it stays there forever.
-Therefore, CT contains a historical view of all active and expired
-certificates. How does the number from the previous question vary if you
-tick the other checkbox "Include certificates that have
-expired", and click on the lens icon again? What do you think about this
-number?
-
-
-*Solution:* Your solution here
-
-**2.4.** (2 points)
+**2.3.** (2 points)
 What happens if a certificate is revoked? How does CT handle revocations and
 why?
 
