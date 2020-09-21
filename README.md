@@ -48,7 +48,7 @@ questions during the question hour. Instead, we will follow the principle that *
 first be asked through a [GitLab
 issue](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues/-/issues)**. When we
 notice that a question is too complex to properly answer via GitLab issues, we will reserve a slot
-for this question during the next exercise hour. During the question hour each SA / TA / lecturer
+for this question during the next question hour. During the question hour each SA / TA / lecturer
 will then answer questions via their own Zoom room, according to the prearranged schedule. You can
 find an overview of all issues that will discussed during the next question hour
 [here](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=question-hour).
