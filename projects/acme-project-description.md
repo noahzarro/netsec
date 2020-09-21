@@ -79,7 +79,7 @@ Your application should be running the following services on the following ports
 - *Shutdown HTTP server:* should run on TCP port 5003. Once testing is complete, the testing environment will issue a `GET /shutdown` request to this server. When this request is received, your application should terminate itself.
 
 ## 4 | Guidelines and Restrictions <a name="guidelines"></a>
- - Only programming languages, modules, libraries, software packages, etc. that are explicitly listed on the [whitelist](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-resources/-/tree/master/project/acme-project-whitelist.md) may be used. We will happily consider requests to extend this whitelist. In principle, we will allow anything as long as
+ - Only programming languages, modules, libraries, software packages, etc. that are explicitly listed on the [whitelist](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-resources/-/tree/master/projects/acme-project-whitelist.md) may be used. We will happily consider requests to extend this whitelist. In principle, we will allow anything as long as
  -- we can run it in our automated testing environment,
  -- it does not implement core ACME functionality, and
  -- it does not implement JSON Object Signing and Encryption (JOSE) functionality.
