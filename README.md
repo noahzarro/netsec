@@ -95,6 +95,9 @@ through the ETH video portal.
 - [Stream recordings](https://video.ethz.ch/lectures/d-infk/2020/autumn/263-4640-00L.html)
 
 ## Asking Questions
+***Please do not send us questions by email.***
+
+### Issue Tracker
 
 If you want to ask a question about any aspect the course, please use the [issue
 tracker](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues/-/issues).
@@ -108,10 +111,11 @@ the checkbox on the new issue page. Confidential issues cannot be seen by other 
 If your question does contain personal or sensitive information, please mark the issue as
 confidential.
 
-Depending on what the lecture live streams will look like, we might provide another method for more
-real-time interaction during the lecture.
+### During the Lecture or Exercise session
 
-***Please do not send us questions by email.***
+During the lecture or exercise sessions students can ask questions using
+https://course.netsec.inf.ethz.ch/questions. We will ensure that this document will be monitored by
+someone present in the lecture room.
 
 ## Handing in Exercises
 
