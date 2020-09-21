@@ -58,7 +58,7 @@ _(required, `{dns01 | http01}`)_ indicates which ACME challenge type the client 
 - `--dir DIR_URL`
 _(required)_ `DIR_URL` is the directory URL of the ACME server that should be used.
 - `--record IPv4_ADDRESS` 
-_(required)_ `IPv4\_ADDRESS` is the IPv4 address which must be returned by your DNS server for all A-record queries. 
+_(required)_ `IPv4_ADDRESS` is the IPv4 address which must be returned by your DNS server for all A-record queries. 
 - `--domain DOMAIN`
 _(required, multiple)_ `DOMAIN`  is the domain for  which to request the certificate. If multiple `--domain` flags are present, a single certificate for multiple domains should be requested. Wildcard domains have no special flag and are simply denoted by, e.g., `*.example.net`.
 - `--revoke`
