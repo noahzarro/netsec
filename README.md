@@ -38,6 +38,34 @@ the checkbox on the new issue page. Confidential issues cannot be seen by other 
 If your question does contain personal or sensitive information, please mark the issue as
 confidential.
 
+### Question Hour
+Because the question hour as we organized it last year resulted in many people standing close
+together, we have decided to move the question hours fully online.
+
+In order to make this work, the online question hours will have a different structure from more
+classical, in-person question hours. Most significantly, you will not be able to ask spontaneous
+questions during the question hour. Instead, we will follow the principle that **all questions must
+first be asked through a [GitLab
+issue](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues/-/issues)**. When we
+notice that a question is too complex to properly answer via GitLab issues, we will reserve a slot
+for this question during the next exercise hour. During the question hour each SA / TA / lecturer
+will then answer questions via their own Zoom room, according to the prearranged schedule. You can
+find an overview of all issues that will discussed during the next question hour
+[here](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=question-hour).
+
+This has the following advantages:
+- Less COVID-19
+- Questions can be directly assigned to the most competent SA / TA / lecturer
+- No need to stand in a queue during the question hour
+- Questions with a simple answer can be quickly answered through the issue tracker
+- If many students have the same or similar questions, we can bundle the discussion of this question
+  in to one slot
+
+Note that questions must be asked via the issue tracker at least one day ahead to be scheduled in a
+question hour.
+
+Of course, it remains possible to ask questions directly during the lectures or exercise sessions.
+
 ### During the Lecture or Exercise session
 
 During the lecture or exercise sessions students can ask questions using
