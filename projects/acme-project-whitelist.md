@@ -11,6 +11,7 @@ Additionaly, you may import the following:
 - Flask
 - requests
 - PyCryptodome
+- Django
 
 
 ## Golang

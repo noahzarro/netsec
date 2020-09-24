@@ -19,7 +19,7 @@ concerning incident. Back in August, the CA had wrongly issued two intermediate
 certificates instead of normal ones. From that moment on, the two
 certificate holders had effectively become intermediate CAs: they could
 sign valid certificates for any domain they saw fit. On the
-24<sup>*t**h*</sup> of December, Google detected a bogus certificate for
+24<sup>th</sup> of December, Google detected a bogus certificate for
 one of their domains, and the certificate was revoked shortly after.
 
 **1.1.** (1 points)
@@ -98,18 +98,7 @@ that the Government has its own CA?
 
 *Solution:* Your solution here
 
-**2.3.** (1 points)
-Once a certificate is published in the CT, it stays there forever.
-Therefore, CT contains a historical view of all active and expired
-certificates. How does the number from the previous question vary if you
-tick the other checkbox "Include certificates that have
-expired", and click on the lens icon again? What do you think about this
-number?
-
-
-*Solution:* Your solution here
-
-**2.4.** (2 points)
+**2.3.** (2 points)
 What happens if a certificate is revoked? How does CT handle revocations and
 why?
 
@@ -247,7 +236,7 @@ SHA-1 is known[2] to be susceptible of collision attacks.
 **7.1.** (1 points)
 The SHAttered attack on SHA-1 proved it possible to generate two
 documents, *d*<sub>1</sub> ≠ *d*<sub>2</sub>, such that
-*S**H**A*<sub>1</sub>(*d*<sub>1</sub>) = *S**H**A*<sub>1</sub>(*d*<sub>2</sub>).
+*SHA*<sub>1</sub>(*d*<sub>1</sub>) = *SHA*<sub>1</sub>(*d*<sub>2</sub>).
 Which (desirable) property of an hash function has been violated?
 
 
@@ -267,8 +256,8 @@ to insert malicious code in the repository?
 Some applications keep using SHA-1 — in fact it is believed to be hard,
 given a document *d*<sub>1</sub>, to find a second document
 *d*<sub>2</sub> = *d*<sub>1</sub> such that
-*S**H**A*<sub>1</sub>(*d*<sub>1</sub>) = *S**H**A*<sub>1</sub>(*d*<sub>2</sub>).
-Which property of an hash function SHAH-1 still appears to be able to
+*SHA*<sub>1</sub>(*d*<sub>1</sub>) = *SHA*<sub>1</sub>(*d*<sub>2</sub>).
+Which property of an hash function SHA-1 still appears to be able to
 guarantee?
 
 
