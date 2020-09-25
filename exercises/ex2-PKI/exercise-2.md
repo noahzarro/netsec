@@ -8,7 +8,7 @@ The hand-in procedure is as follows:
 
 - copy this document, and answer the questions in the appropriate spaces;
 - create a new issue on [the GitLab issue repo](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues);
-- the issue title must be in the form `[exercise-hand-in] Exercise 1 {YOUR NETHZ ID}` (without curly braces); 
+- the issue title must be in the form `[exercise-hand-in] Exercise 2 {YOUR NETHZ ID}` (without curly braces); 
 - you should set the issue as confidential;
 - paste the modified document with your solution in the body of the issue.
 
