@@ -8,7 +8,7 @@ The hand-in procedure is as follows:
 
 - copy this document, and answer the questions in the appropriate spaces;
 - create a new issue on [the GitLab issue repo](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues);
-- the issue title must be in the form `[exercise-hand-in] Exercise 3 {YOUR NETHZ ID}` (without curly braces); 
+- the issue title must be in the form `[exercise-hand-in] Exercise 2 {YOUR NETHZ ID}` (without curly braces); 
 - you should set the issue as confidential;
 - paste the modified document with your solution in the body of the issue.
 
@@ -74,30 +74,35 @@ your server's communications.
 
 **2.1.** (2 points)
 
+`TLS_DH_WITH_AES_256_CBC_SHA`
 
 
 *Solution:* Your solution here
 
 **2.2.** (2 points)
 
+`TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA`
 
 
 *Solution:* Your solution here
 
 **2.3.** (2 points)
 
+`TLS_DHE_RSA_WITH_AES_128_GCM_SHA256`
 
 
 *Solution:* Your solution here
 
 **2.4.** (2 points)
 
+`TLS_DH_anon_WITH_DES_CBC_SHA`
 
 
 *Solution:* Your solution here
 
 **2.5.** (2 points)
 
+`TLS_RSA_WITH_RC4_128_MD5`
 
 
 *Solution:* Your solution here
