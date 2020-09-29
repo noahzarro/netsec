@@ -1,0 +1,19 @@
+Dear students
+
+At the beginning of today's exercise session, I will introduce the first graded semester project, which is about the ACME protocol. The (few) slides that I will use for introduction are available on our GitLab [1].
+
+However, you are already equipped with everything you need to start working on the project.
+The project description outlining the expected deliverables and the grading environment is available on GitLab as well [2].
+Moreover, a personal repository with a code skeleton has been initialized for you at [3]. In case you registered for the course very recently, there may not be a repository for you yet and you may need to wait until the end of the week until it becomes available.
+
+Note that the last commit to this repository (before 6 November, 23:59:00) will determine your project grade, which makes up 10% of your course grade. If you decide not to do the project, you will be awarded a project grade of 1.0, which allows a maximum grade of 5.0 for the course (If you do not register for the exam, your project grade will not show up in your transcript of records.)
+
+In case you encounter questions and problems during the project phase, please use the GitLab issues [4].
+
+Have fun with the project & best regards,
+Simon
+
+[1] https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-resources/-/blob/master/projects/acme-project-introduction.pdf
+[2] https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-resources/-/blob/master/projects/acme-project-description.md
+[3] Personalized link: https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/project-acme/netsec-2020-acme/<<<YOUR_NETHZ_ID>>>-acme-project
+[4] https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues
