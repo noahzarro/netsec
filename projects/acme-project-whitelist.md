@@ -58,3 +58,19 @@ Additionaly, you may use the following crates:
 - tokio
 - gotham
 - tokio-rustls
+
+## C
+A standard GCC installation is available on the CI containers. Moreover, you may use the following libraries:
+
+- libssl
+- libcrypto
+- libtls
+- libutil
+- libbsd
+- libcurl
+- json-c
+- libc
+- libm
+- b64.c
+
+The bison tool for parser generation is installed as well.
