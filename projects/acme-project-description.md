@@ -80,10 +80,11 @@ Your application should be running the following services on the following ports
 
 ## 4 | Guidelines and Restrictions <a name="guidelines"></a>
  - Only programming languages, modules, libraries, software packages, etc. that are explicitly listed on the [whitelist](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-resources/-/tree/master/projects/acme-project-whitelist.md) may be used. We will happily consider requests to extend this whitelist. In principle, we will allow anything as long as
- -- we can run it in our automated testing environment,
- -- it does not implement core ACME functionality, and
- -- it does not implement JSON Object Signing and Encryption (JOSE) functionality.
-You can direct request for extensions of the whitelist by opening a [Gitlab issue](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues).
+   - we can run it in our automated testing environment,
+   - it does not implement core ACME functionality, and
+   - it does not implement JSON Object Signing and Encryption (JOSE) functionality.
+  
+   You can direct request for extensions of the whitelist by opening a [Gitlab issue](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues).
 
 - Your application may spawn other processes. However, the entire application must start solely by executing the `run` file.
 - You can use any key type and key size supported by openSSL and Pebble for the requested certificate.
