@@ -22,6 +22,7 @@ Each of these items are discussed in more detail below.
 - [Stream recordings](https://video.ethz.ch/lectures/d-infk/2020/autumn/263-4640-00L.html)
 
 ## Asking Questions
+
 ***Please do not send us questions by email.***
 
 ### Issue Tracker
@@ -39,6 +40,7 @@ If your question does contain personal or sensitive information, please mark the
 confidential.
 
 ### Question Hour
+
 Because the question hour as we organized it last year resulted in many people standing close
 together, we have decided to move the question hours fully online.
 
@@ -54,6 +56,7 @@ find an overview of all issues that will discussed during the next question hour
 [here](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=question-hour).
 
 This has the following advantages:
+
 - Less COVID-19
 - Questions can be directly assigned to the most competent SA / TA / lecturer
 - No need to stand in a queue during the question hour
@@ -149,3 +152,32 @@ through the ETH video portal.
 - [CHN C 14 livestream](https://video.ethz.ch/live/lectures/zentrum/chn/chn-c-14.html)
 - [HG F 1 livestream](https://video.ethz.ch/live/lectures/zentrum/hg/hg-f-1/projector.html)
 - [Stream recordings](https://video.ethz.ch/lectures/d-infk/2020/autumn/263-4640-00L.html)
+
+## Hacking-Lab
+
+You will have the chance to solve hands-on security challenges on [Hacking-Lab](https://academy.hacking-lab.com/)
+during this course. Overall, there will be three sets of challenges related to (1) TLS, (2) DNS,
+and (3) firewalls. Hacking-Lab is completely optional and has no influence on your grade.
+
+### Timeline
+
+The challenges will be opened on the day of the respective lecture in "wargame" mode (i.e., without
+any hints) and will be switched to "tutorial" mode (with hints but reduced points) one week later.
+They will remain open for at least the whole semester. We may show some of the challenges and
+explain background information during the exercise sessions.
+
+The dates for the three categories are as follows:
+
+- **TLS**: Open on 06.10.2020 at 00:00, enable hints on 13.10.2020 at 08:00
+- **DNS**: Open on 10.11.2020 at 00:00, enable hints on 17.11.2020 at 08:00
+- **Firewalls**: Open on 17.11.2020 at 00:00, enable hints on 24.11.2020 at 08:00
+
+### How to Register
+
+- Go to <https://academy.hacking-lab.com/>
+- Register with an email address of your choice
+- After registering/logging in, click on "Redeem Access Token" and enter `ETHZ-NETSEC-A7F3`
+  - This adds a new event "ETHZ Network Security 2020"
+  - Please *only do this once*, as the access token has a limited number of uses
+- Clicking on the event, you see three categories; they will be accessible according to the timeline
+  above.
