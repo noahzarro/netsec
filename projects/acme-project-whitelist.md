@@ -6,12 +6,12 @@ You may use the standard library, as specified in https://docs.python.org/3/libr
 
 Additionaly, you may import the following:
 - cryptography
+- dacite
+- Django
 - dnslib
 - Flask
-- requests
 - PyCryptodome
-- Django
-- dacite
+- requests
 
 
 ## Golang
@@ -45,32 +45,33 @@ https://doc.rust-lang.org/std/
 Cargo is installed
 
 Additionaly, you may use the following crates:
-- reqwest
-- openssl
-- getopts
 - base64
+- clap
+- futures
+- getopts
+- gotham
 - hyper
+- openssl
+- reqwest
+- rust-crypto
 - serde
 - serde_json
-- trust-dns-server
-- rust-crypto
-- futures
 - tokio
-- gotham
 - tokio-rustls
+- trust-dns-server
 
 ## C
 A standard GCC installation is available on the CI containers. Moreover, you may use the following libraries:
 
-- libssl
+- b64.c
+- json-c
+- libbsd
+- libc
 - libcrypto
+- libcurl
+- libm
+- libssl
 - libtls
 - libutil
-- libbsd
-- libcurl
-- json-c
-- libc
-- libm
-- b64.c
 
 The bison tool for parser generation is installed as well.
