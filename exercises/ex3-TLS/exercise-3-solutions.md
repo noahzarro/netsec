@@ -54,7 +54,7 @@ Google Duo
 
 **Solution**: 
 Signal Protocol. <https://www.gstatic.com/duo/papers/duo_e2ee.pdf>
-(Note: if you read the whitepaper, the *state recovery* part is slimy worrying)
+(Note: if you read the whitepaper, the *state recovery* part is slightly worrying)
 
 **1.6.** (1 points)
 Skype
