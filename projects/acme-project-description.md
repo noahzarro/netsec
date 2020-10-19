@@ -26,7 +26,7 @@ Your submitted application must consist of the following components:
 
 ### 3.2 |  Required Functionality 
 In order to receive full marks, your application should be able to
-- use ACME to request and obtain certificates using the `dns-01` and `http-01` challenge,
+- use ACME to request and obtain certificates using the `dns-01` and `http-01` challenge (with fresh keys in every run),
 - request and obtain certificates which contain aliases,
 - request and obtain certificates with wildcard domain names, and
 - revoke certificates after they have been issued by the ACME server.
