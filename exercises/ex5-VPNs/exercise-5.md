@@ -137,11 +137,13 @@ In TLS, the handshake is run on the record protocol, initially without
 encryption. Until version 1.2, the whole handshake was unencrypted (and the
 authenticity of individual messages was only confirmed in the Finished
 messages), which meant that a client providing a certificate would send their
-identity in plain text. TLS 1.3 creates "handshake keys" from the
-Diffie--Hellman key exchange and uses these keys to encrypt messages starting
-from the ServerCertificate; in particular, the (optional) client certificate is
-protected. How does the IPsec IKEv2 tackle this problem? What security
-implications does this have in the presence of an active (MitM) attacker?
+identity in plain text. TLS 1.3 creates "handshake keys" and uses these keys to
+encrypt messages starting from the ServerCertificate; in particular, the
+(optional) client certificate is protected.
+
+How does the IPsec IKEv2 tackle this problem? What security implications does
+this have in the presence of an active (MitM) attacker?
+
 (Note: The original version of this question incorrectly stated that the whole
 handshake of TLS 1.3 was unencrypted.)
 
