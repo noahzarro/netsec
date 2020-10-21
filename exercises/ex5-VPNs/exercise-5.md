@@ -133,11 +133,12 @@ it represents the norm. Can you think of some reason why it is so?
 *Solution*: Your solution here.
 
 **4.2.** (3 points)
-In TLS, the handshake is run on the record protocol without encryption
-or authentication (`TLSPlaintext` in TLS1.3). This means that if the
-client is providing a certificate, it will leak its own identity. How
-does the IPsec IKEv2 tackle this problem? What security implications
-does this have in the presence of an active (MitM) attacker?
+In TLS 1.2, the handshake is run on top of the record protocol without
+encryption. This means that if the client is providing a certificate, it will
+leak its own identity (you may remember that TLS 1.3, instead, encrypts all of
+the handshake messages after the ServerHello). How does the IPsec IKEv2 tackle
+this problem? What security implications does this have in the presence of an
+active (MitM) attacker?
 
 *Solution*: Your solution here.
 
