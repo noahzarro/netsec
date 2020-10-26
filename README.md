@@ -13,7 +13,7 @@ Each of these items are discussed in more detail below.
 
 ## Online teaching
 
-From Thursday 2020-10-29 onward the NetSec course will be thought via Zoom. 
+From Thursday 2020-10-29 onward the NetSec course will be taught via Zoom. 
 - [Zoom meeting for lectures and exercises: 915 282 714 29](https://ethz.zoom.us/j/91528271429)
 - [Archive with lecture and exercise recordings](https://course.netsec.inf.ethz.ch/recordings-2F413F4428472D4B6150645367566B59/)
 
