@@ -13,7 +13,8 @@ Each of these items are discussed in more detail below.
 
 ## Online Teaching
 
-From Thursday 2020-10-29 onward the NetSec course will be taught via Zoom. 
+From Thursday 2020-10-29 onward the NetSec course will be taught via Zoom.
+
 - [Zoom meeting for lectures and exercises: 915 282 714 29](https://ethz.zoom.us/j/91528271429)
 - [Remote lecture questions](https://course.netsec.inf.ethz.ch/questions)
 - [Archive with lecture and exercise recordings](https://course.netsec.inf.ethz.ch/recordings-2F413F4428472D4B6150645367566B59/)
@@ -77,9 +78,14 @@ Of course, it remains possible to ask questions directly during the lectures or 
 
 ### During the Lecture or Exercise session
 
-During the lecture or exercise sessions students can ask questions using
-https://course.netsec.inf.ethz.ch/questions. We will ensure that this document will be monitored by
-someone present in the lecture room.
+There are three options to ask questions during lectures exercise sessions:
+
+1. (**preferred**) Raise your hand (virtually) on Zoom. After being prompted by the lecturer or assistant,
+2. unmute yourself and ask the question verbally. If you want, you can also enable your camera (not required).
+3. Ask your question in the Zoom chat.
+4. Use the document at <https://course.netsec.inf.ethz.ch/questions> to ask anonymous questions.
+
+An assistant will monitor the chat and the question document and selectively ask some of the questions verbally.
 
 ## Handing in Exercises
 
