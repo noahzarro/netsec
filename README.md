@@ -81,9 +81,9 @@ Of course, it remains possible to ask questions directly during the lectures or 
 There are three options to ask questions during lectures exercise sessions:
 
 1. (**preferred**) Raise your hand (virtually) on Zoom. After being prompted by the lecturer or assistant,
-2. unmute yourself and ask the question verbally. If you want, you can also enable your camera (not required).
-3. Ask your question in the Zoom chat.
-4. Use the document at <https://course.netsec.inf.ethz.ch/questions> to ask anonymous questions.
+   unmute yourself and ask the question verbally. If you want, you can also enable your camera (not required).
+2. Ask your question in the Zoom chat.
+3. Use the document at <https://course.netsec.inf.ethz.ch/questions> to ask anonymous questions.
 
 An assistant will monitor the chat and the question document and selectively ask some of the questions verbally.
 
