@@ -11,10 +11,11 @@ interaction between students and the course team. Concretely, using this GitLab 
 
 Each of these items are discussed in more detail below.
 
-## Online teaching
+## Online Teaching
 
 From Thursday 2020-10-29 onward the NetSec course will be taught via Zoom. 
 - [Zoom meeting for lectures and exercises: 915 282 714 29](https://ethz.zoom.us/j/91528271429)
+- [Remote lecture questions](https://course.netsec.inf.ethz.ch/questions)
 - [Archive with lecture and exercise recordings](https://course.netsec.inf.ethz.ch/recordings-2F413F4428472D4B6150645367566B59/)
 
 ## Useful Links
@@ -25,7 +26,6 @@ From Thursday 2020-10-29 onward the NetSec course will be taught via Zoom.
 - [Remote lecture questions](https://course.netsec.inf.ethz.ch/questions)
 - [Zoom meeting for lectures and exercises: 915 282 714 29](https://ethz.zoom.us/j/91528271429)
 - [Archive with lecture and exercise recordings](https://course.netsec.inf.ethz.ch/recordings-2F413F4428472D4B6150645367566B59/)
-- [CHN C 14 livestream](https://video.ethz.ch/live/lectures/zentrum/chn/chn-c-14.html)
 
 ## Asking Questions
 
@@ -85,17 +85,6 @@ someone present in the lecture room.
 
 You can hand in exercises by creating a **confidential** issue with a title starting with
 `[exercise-hand-in]`. You should use the filled in exercise template as the body of the issue.
-
-## Lecture and Exercise Streams
-
-**This information will be invalid after Tuesday 2020-10-27.**
-
-Every lecture and exercise session will be streamed live and a recording will be made available
-through the ETH video portal.
-
-- [Remote lecture questions](https://course.netsec.inf.ethz.ch/questions)
-- [CHN C 14 livestream](https://video.ethz.ch/live/lectures/zentrum/chn/chn-c-14.html)
-- [Stream recordings](https://video.ethz.ch/lectures/d-infk/2020/autumn/263-4640-00L.html)
 
 ## Hacking-Lab
 
