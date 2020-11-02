@@ -92,6 +92,8 @@ Your application should be running the following services on the following ports
 ## 5 | Testing
 We recommend the use of [Pebble](https://github.com/letsencrypt/pebble) for local testing. Pebble is a lightweight ACME server designed specifically for testing. During the automated testing your application will be tested against a Pebble server.
 
+Note that by default, Pebble is configured to reject 5% of good nonces. The grading environment, on the contrary, does not reject valid nonces. Hence, we do not expect your application to gracefully handle cases of unjustly rejected nonces. To achieve the same Pebble behavior locally as is used in the CI testing, adjust the value of the corresponding environment variable: `export PEBBLE_WFE_NONCEREJECT=0`.
+
 ## 6 | Grading
 
 You should submit your code by pushing it to a personal repository we have set up for you at
