@@ -109,7 +109,7 @@ scores are _not_ graded.
 
 You should submit your code by pushing it to a personal repository we have set up for you at
  ```
- TODO: Put URL here
+ https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/project-dtf/netsec-2020-student-dtf/<nethz_id>-dtf-project
  ```
  
 There is no continuous integration set up for your repository, instead you have
