@@ -67,6 +67,7 @@ Additionaly, you may use the following crates:
 - openssl
 - p256
 - rand
+- regex
 - reqwest
 - rust-crypto
 - serde
