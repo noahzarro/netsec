@@ -62,6 +62,7 @@ Additionaly, you may use the following crates:
 - getopts
 - gotham
 - hyper
+- lazy_static
 - log
 - openssl
 - p256
@@ -75,6 +76,7 @@ Additionaly, you may use the following crates:
 - tokio-rustls
 - trust-dns-server
 - trust-dns-client
+- uuid
 
 ## C
 A standard GCC installation is available on the CI containers. Moreover, you may use the following libraries:
