@@ -11,10 +11,12 @@ interaction between students and the course team. Concretely, using this GitLab 
 
 Each of these items are discussed in more detail below.
 
-## Online teaching
+## Online Teaching
 
-From Thursday 2020-10-29 onward the NetSec course will be taught via Zoom. 
+From Thursday 2020-10-29 onward the NetSec course will be taught via Zoom.
+
 - [Zoom meeting for lectures and exercises: 915 282 714 29](https://ethz.zoom.us/j/91528271429)
+- [Remote lecture questions](https://course.netsec.inf.ethz.ch/questions)
 - [Archive with lecture and exercise recordings](https://course.netsec.inf.ethz.ch/recordings-2F413F4428472D4B6150645367566B59/)
 
 ## Useful Links
@@ -25,7 +27,6 @@ From Thursday 2020-10-29 onward the NetSec course will be taught via Zoom.
 - [Remote lecture questions](https://course.netsec.inf.ethz.ch/questions)
 - [Zoom meeting for lectures and exercises: 915 282 714 29](https://ethz.zoom.us/j/91528271429)
 - [Archive with lecture and exercise recordings](https://course.netsec.inf.ethz.ch/recordings-2F413F4428472D4B6150645367566B59/)
-- [CHN C 14 livestream](https://video.ethz.ch/live/lectures/zentrum/chn/chn-c-14.html)
 
 ## Asking Questions
 
@@ -77,25 +78,19 @@ Of course, it remains possible to ask questions directly during the lectures or 
 
 ### During the Lecture or Exercise session
 
-During the lecture or exercise sessions students can ask questions using
-https://course.netsec.inf.ethz.ch/questions. We will ensure that this document will be monitored by
-someone present in the lecture room.
+There are three options to ask questions during lectures exercise sessions:
+
+1. (**preferred**) Raise your hand (virtually) on Zoom. After being prompted by the lecturer or assistant,
+   unmute yourself and ask the question verbally. If you want, you can also enable your camera (not required).
+2. Ask your question in the Zoom chat.
+3. Use the document at <https://course.netsec.inf.ethz.ch/questions> to ask anonymous questions.
+
+An assistant will monitor the chat and the question document and selectively ask some of the questions verbally.
 
 ## Handing in Exercises
 
 You can hand in exercises by creating a **confidential** issue with a title starting with
 `[exercise-hand-in]`. You should use the filled in exercise template as the body of the issue.
-
-## Lecture and Exercise Streams
-
-**This information will be invalid after Tuesday 2020-10-27.**
-
-Every lecture and exercise session will be streamed live and a recording will be made available
-through the ETH video portal.
-
-- [Remote lecture questions](https://course.netsec.inf.ethz.ch/questions)
-- [CHN C 14 livestream](https://video.ethz.ch/live/lectures/zentrum/chn/chn-c-14.html)
-- [Stream recordings](https://video.ethz.ch/lectures/d-infk/2020/autumn/263-4640-00L.html)
 
 ## Hacking-Lab
 
