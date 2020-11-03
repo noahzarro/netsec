@@ -102,7 +102,7 @@ system.
 
 You can test your project using the grading system, which runs at
 [`grader.dtf.netsec.inf.ethz.ch`](https://grader.dtf.netsec.inf.ethz.ch) using
-the "Check Tasks" button. Testing is done directly against your VM, and any test
+the "Check VM" button. Testing is done directly against your VM, and any test
 scores are _not_ graded.
 
 ## 5 | Grading
@@ -113,7 +113,7 @@ You should submit your code by pushing it to a personal repository we have set u
  ```
  
 There is no continuous integration set up for your repository, instead you have
-to manually start the grading process by clicking the "Grade VM" button. The
+to manually start the grading process by clicking the "Grade Solution" button. The
 grading process will run in the background and take a while to complete, you can
 continue to work on your VM in the meantime.
 
