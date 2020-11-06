@@ -122,7 +122,7 @@ How much bandwidth did the attackers use to perform the attack?
 *Solution:* Your solution here
 
 **4.4.** (3 points)
-DNS (mainly) uses UDP port 53. How being on UDP enables this attack? Can
+DNS (mainly) uses UDP port 53. Why does using UDP enable this attack? Can 
 you perform it with a TCP-based protocol, assuming Dolev-Yao attacker?
 
 *Solution:* Your solution here
