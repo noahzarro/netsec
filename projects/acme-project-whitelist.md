@@ -53,6 +53,7 @@ Cargo is installed
 Additionaly, you may use the following crates:
 
 - actix-web
+- actix_rt
 - actix-server
 - base64
 - clap
