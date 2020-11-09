@@ -78,14 +78,16 @@ Of course, it remains possible to ask questions directly during the lectures or 
 
 ### During the Lecture or Exercise session
 
-There are three options to ask questions during lectures exercise sessions:
+There are two options to ask questions during lectures exercise sessions:
 
-1. (**preferred**) Raise your hand (virtually) on Zoom. After being prompted by the lecturer or assistant,
-   unmute yourself and ask the question verbally. If you want, you can also enable your camera (not required).
-2. Ask your question in the Zoom chat.
-3. Use the document at <https://course.netsec.inf.ethz.ch/questions> to ask anonymous questions.
+1. (**preferred**) Raise your hand (virtually) on Zoom. After being prompted by the lecturer or
+   assistant, unmute yourself and ask the question verbally. If you want, you can also enable your
+   camera (not required).
+2. Ask your question in the Zoom chat; an assistant or the lecturer will monitor the chat.
 
-An assistant will monitor the chat and the question document and selectively ask some of the questions verbally.
+The [cryptpad document](https://course.netsec.inf.ethz.ch/questions) has been discontinued as it
+hasn't been used since switching to Zoom-based lectures. An exported version containing all
+questions and answers is available [here](NetSec-Lecture-Questions.html).
 
 ## Handing in Exercises
 
