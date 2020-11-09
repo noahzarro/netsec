@@ -87,7 +87,7 @@ There are two options to ask questions during lectures exercise sessions:
 
 The [cryptpad document](https://course.netsec.inf.ethz.ch/questions) has been discontinued as it
 hasn't been used since switching to Zoom-based lectures. An exported version containing all
-questions and answers is available [here](NetSec-Lecture-Questions.html).
+questions and answers is available [here](NetSec-Lecture-Questions.md).
 
 ## Handing in Exercises
 
