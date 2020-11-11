@@ -21,7 +21,7 @@ What security problems is BGP facing?
 *Solution:* Your solution here
 
 **1.2.** (4 points)
-What is route origin authentication? Briefly explain how it works and
+What is route origin authorization? Briefly explain how it works and
 against what attacks it is effective.
 
 *Solution:* Your solution here
