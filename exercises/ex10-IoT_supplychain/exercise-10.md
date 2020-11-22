@@ -67,7 +67,7 @@ your proposed solution.
 
 *Solution:* Your solution here
 
--  \[2\] "We are scrambling to discover how the code was introduced and at
+- (2 points) "We are scrambling to discover how the code was introduced and at
 this point it seems like a coding oversight" said Zak Wood, Trendnet’s
 director of marketing. Do you believe this is the case?
 
