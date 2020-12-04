@@ -110,8 +110,8 @@ explain background information during the exercise sessions.
 The dates for the three categories are as follows:
 
 - **TLS**: Open on 06.10.2020 at 00:00, enable hints on 13.10.2020 at 08:00
-- **DNS**: Open on 10.11.2020 at 00:00, enable hints on 17.11.2020 at 08:00
-- **Firewalls**: Open on 17.11.2020 at 00:00, enable hints on 24.11.2020 at 08:00
+- **Firewalls**: Open on 10.11.2020 at 00:00, enable hints on 17.11.2020 at 08:00
+- **DNS**: Open on 24.11.2020 at 00:00, enable hints on 01.12.2020 at 08:00
 
 ### How to Register
 
