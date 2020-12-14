@@ -28,6 +28,21 @@ From Thursday 2020-10-29 onward the NetSec course will be taught via Zoom.
 - [Zoom meeting for lectures and exercises: 915 282 714 29](https://ethz.zoom.us/j/91528271429)
 - [Archive with lecture and exercise recordings](https://course.netsec.inf.ethz.ch/recordings-2F413F4428472D4B6150645367566B59/)
 
+## Exam
+
+- The exam will take place on February 15 in a computer room.
+- Binding information will be provided in your personal examination plan.
+- There are two options for the physical keyboard: Swiss-German (default) and US. Please contribute to the [poll](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-issues/-/issues/411) if you prefer a US keyboard.
+- Last year's exam (both in old and new layout) is available on [Moodle](https://moodle-app2.let.ethz.ch/course/view.php?id=14059).
+
+### Exam Content
+
+- Generally, **all lectures, guest lectures, and exercises are relevant for the exam**, although the focus will be on lectures and exercises.
+- Some content is excluded from the exam:
+  - As Stefan Frei did not have sufficient time for his lecture on supply-chain security, this will be excluded from the exam.
+  - There will not be specific questions about the networking and crypto refresher, but general knowledge about those parts will be assumed and may be required to answer other questions.
+- There will not be detailed questions about the projects, as they already count towards the grade. However, some *general knowledge about ACME and its purpose in the Internet's security ecosystem* may be required.
+
 ## Asking Questions
 
 ***Please do not send us questions by email.***
