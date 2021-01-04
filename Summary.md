@@ -17,7 +17,11 @@
 - :x: Key must not be reused
 - :x:  Alteration of ciphertext will alter corresponding values in plaintext after decryption
 #### Block Ciphers
-Message is split into blocks, each block is encrypted separately 
+Message is split into blocks, each block is encrypted separately.
+As encryption algorithm for example AES can be used.
+
+Block ciphers describe the way of how the message and the key is feed into the
+encryption algorithm, but do not describe the encryption algorithm itself.
 ##### Electronic Code Book (ECB)
 ![ECB Pic](assets/ECB.png)
 - Split message in blocks, encrypt each block separately, but with same key
@@ -29,13 +33,28 @@ ciphertext block occurs
 ##### Cipher Block Chaining (CBC)
 ![CBC Pic](assets/CBC.png)
 - :heavy_check_mark: Semantic security (best guess for single plaintext bit is random)
-- :x: Altered ciphertext only influences two blocks (why? :flushed:)
+- :x: Altered ciphertext only influences two blocks
 - :x: Not secure for variable-sized messages!
 
 ##### Counter Mode (CTR)
 ![CTR Pic](assets/CTR.png)
+- :heavy_check_mark: Semantic security
+- :x: Altered ciphertext only influences single block
+- :x: same vulnerabilities as stream cipher
 
-- 
+#### Message Authentication Codes
+A code attached to a message, to prove that the message was not altered ont the way to the receiver.
+Can be implemented with a **hash**, **cipher** or other
+
+#### Authenticated Encryption with Associated Data (AEAD)
+A cryptographic primitive that combines **encryption** and **mac**
+
+##### Galois Counter Mode (GCM)
+![GCM Pic](assets/GCM.png)
+a possible implementation of a AEAD
+
+
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbODAyMDQxMTIwLC0xMjc5NjExODQxXX0=
 -->
