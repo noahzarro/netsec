@@ -20,7 +20,8 @@ Concisely answer the following questions:
 **1.1.** (2 points)
 Edward wants to prove to Laura he really is the sender of a message. What security property is he trying to achieve?  Which cryptographic primitive could he use?
 
-*Solution*: Your solution here... 
+Authentication
+Sign with his private key
 
 **1.2.** (2 points)
 Edward wants to send a secret message to Glenn---they cannot meet to exchange a key, but they deem it unlikely for the NSA to tamper with their messages on the fly[^1]. What security property are Edward and Glenn trying to achieve? Which cryptographic primitives could they use?
@@ -104,7 +105,7 @@ Routing algorithms are at the heart of routers. Open Shortest Path First (OSPF),
 **7.1.** (5 points)
 Consider the following network. The square nodes are local-area networks (LANs), while the round nodes are routers. LANs can only receive and generate packets, they can't route incoming traffic. Fill in the routing tables below.
 
-![OSPF network](https://gitlab.inf.ethz.ch/PRV-PERRIG/netsec-course/netsec-2020-resources/-/raw/master/exercises/ex1-refresher/assets/ospf-network.png)
+![OSPF network](assets/ospf-network.png)
 
 *Solution*:
 
