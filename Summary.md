@@ -19,15 +19,13 @@
 #### Block Ciphers
 Message is split into blocks, each block is encrypted separately 
 ##### Electronic Code Book (ECB)
-![ECB Pic](https://github.com/noahzarro/netsec/blob/master/assets/ECB.png)
+![ECB Pic](assets/ECB.png)
 - Split message in blocks, encrypt each block separately, but with same key
 - :heavy_check_mark: fast
 - :x: Same plaintext always corresponds to same ciphertext
 - :x: Adversary may can guess part of plaintext, can decrypt parts of a message if same
 ciphertext block occurs
 - :x: Adversary can replace blocks with other blocks
-##### Electronic Code Book (ECB)
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTExMjEwNSw1ODM0NzIzNjldfQ==
--->
+##### Cipher Block Chaining (CBC)
+![CBC Pic](assets/CBC.png)
+- 
