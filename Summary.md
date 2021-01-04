@@ -29,3 +29,6 @@ ciphertext block occurs
 ##### Cipher Block Chaining (CBC)
 ![CBC Pic](assets/CBC.png)
 - 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEyNzk2MTE4NDFdfQ==
+-->
