@@ -19,7 +19,7 @@
 #### Block Ciphers
 Message is split into blocks, each block is encrypted separately 
 ##### Electronic Code Book (ECB)
-
+![ECB Pic](https://github.com/noahzarro/netsec/blob/master/assets/ECB.png)
 - Split message in blocks, encrypt each block separately, but with same key
 - :heavy_check_mark: fast
 - :x: Same plaintext always corresponds to same ciphertext
@@ -29,5 +29,5 @@ ciphertext block occurs
 ##### Electronic Code Book (ECB)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzNDcyMzY5XX0=
+eyJoaXN0b3J5IjpbLTY5MTExMjEwNSw1ODM0NzIzNjldfQ==
 -->
