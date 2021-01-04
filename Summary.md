@@ -33,6 +33,7 @@ ciphertext block occurs
 - :x: Not secure for variable-sized messages!
 
 ##### Counter Mode (CTR)
+![CTR Pic](assets/CTR.png)
 
 - 
 <!--stackedit_data:
