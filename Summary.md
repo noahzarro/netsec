@@ -28,4 +28,9 @@ ciphertext block occurs
 - :x: Adversary can replace blocks with other blocks
 ##### Cipher Block Chaining (CBC)
 ![CBC Pic](assets/CBC.png)
-- 
+- :heavy_check_mark: Semantic security (best guess for single plaintext bit is random)
+- :x: Altered ciphertext only influences two blocks (why? :flushed:)
+- :x: Not secure for variable-sized messages!
+
+##### Counter Mode (CTR)
+
