@@ -115,6 +115,7 @@ Chain hash functions together. Improves One-Wayness (glaub :flushed:)
 
 ### Merkle Hash Trees
 ![Merkel](assets/Merkel.png)
+
 Use leafs to calculate parent. Verify leaf easily
 
 <!--stackedit_data:
