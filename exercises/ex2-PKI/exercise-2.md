@@ -26,26 +26,24 @@ one of their domains, and the certificate was revoked shortly after.
 What kind of attack was attempted by the fake CA?
 
 
-*Solution:* Your solution here
+They wanted to trick users into thinking that they were google
 
 **1.2.** (1 points)
 Are the MitM victims able to tell that they are being attacked if no
 HTTPS extension is being used?
 
-
-*Solution:* Your solution here
+no
 
 **1.3.** (1 points)
 Describe what the HTTP Strict Transport Layer Security (HSTS) header is, and if it could prevent a MitM attack.
 
-
-*Solution:* Your solution here
+it does not allow for downgrading, i.e. only accepts https connections and no http connections
+but it would not help, since this attack targets only https anyway
 
 **1.4.** (1 points)
 Does the fact that Google has an EV certificate prevent a MitM attack?
 
-
-*Solution:* Your solution here
+it could, but probably not. If the user knows that google uses a EV certificate and the MitM is somehow only able to create a non EV certificate, then the user might notice that something is wrong. But there is no automatic solution
 
 **1.5.** 
 Let us now examine how Certificate Transparency (CT) could prevent the
@@ -56,21 +54,20 @@ attack:
 List the parties involved in CT, and explain what role they play.
 
 
-*Solution:* Your solution here
+There is the database that lists all certificates, the server that checks the database if nobody inserts a bongus certificate for it, and the users who check the certificates received from the server against the database
 
 - (1 points)
 How can the MitM attack be prevented by CT?
 
-
-*Solution:* Your solution here
+The MitM would not be able to insert it's certificate into the database without being caught. 
+The user can then see that there is no entry for the attackers certificate
 
 - (2 points)
 Assume that the log server is controlled by the adversaries. Why can’t
 this malicious log server send two different versions of the log, one to the victim and
 one to the CAs (split view attack)?
 
-
-*Solution:* Your solution here
+it is hard to detect who is who i guess? :flushed:
 
 ### Question 2 
 The Certificate Transparency Logs provide an interesting way of acquiring
@@ -86,7 +83,7 @@ to be publicly known into public entries. Can you find a subdomain that
 belongs to this category?
 
 
-*Solution:* Your solution here
+pin-reset.a-pki.admin.ch maybe
 
 **2.2.** (1 points)
 CT is a great way of realizing just how many entities are signing certificates.
@@ -96,14 +93,13 @@ domain found in the previous question, since the logs started? Did you know
 that the Government has its own CA?
 
 
-*Solution:* Your solution here
+around dousend
 
 **2.3.** (2 points)
 What happens if a certificate is revoked? How does CT handle revocations and
 why?
 
-
-*Solution:* Your solution here
+it removes the certificate from its tree as fast as possible, such that users will notice it as fast as possible
 
 ### Question 3 (4 points)
 In its current state, the Internet PKI requires the user to trust
@@ -114,7 +110,7 @@ is a possible alternative architecture?
 
 [1] <https://ccadb-public.secure.force.com/mozilla/IncludedCACertificateReport>
 
-*Solution:* Your solution here
+Enforce the use of CT
 
 ### Question 4 
 In 2015, it emerged that many laptops sold by Lenovo contained a
@@ -128,8 +124,7 @@ domains, too[1].
 How would you implement a software that intercepts HTTPS connections? Are you
 exposing the users of your software to MITM by arbitrary parties?
  
-
-*Solution:* Your solution here
+I would fake all the certificates and then establish the connections with the real servers myself
 
 **4.2.** (2 points)
 Chances are high that you did a better job than Superfish authors in the
@@ -141,7 +136,7 @@ the laptops?
     
 [1] <https://blog.erratasec.com/2015/02/extracting-superfish-certificate.html>
 
-*Solution:* Your solution here
+I could fake to be ubs.ch and issue a certificate for it with the private key and all lousy lenovo users would trust me, those naïve fools
 
 
 **4.3.** (2 points)
@@ -150,8 +145,7 @@ abuses of locally installed root CAs? (HPKP? HSTS? OCSP? CT?)
 
 [1] <https://bugzilla.mozilla.org/show_bug.cgi?id=1567114>
 
-
-*Solution:* Your solution here
+_OCSP would probably not work, since the fake certificates are fake, but not revoked. HPKP only temporarily, it is not designed to solve this issue, HSTS would not work, CT would work, but would also disable all communication, since the local root CA certificates are not listed in the logs_
 
 **4.4.** (1 points)
 It should by now be clear that intercepting TLS traffic presents many
@@ -162,7 +156,7 @@ interception?
 
 [1] <https://bugs.chromium.org/p/project-zero/issues/detail?id=978>
 
-*Solution:* Your solution here
+Caching
 
 ### Question 5 
 HTTP Public Key Pinning (HPKP) is a mechanism that could help with the
@@ -174,14 +168,13 @@ officially deprecated this method.
 **5.1.** (2 points)
 Briefly explain how HPKP works and how it helps security.
 
-
-*Solution:* Your solution here
+If a HTTPS connection is established, the certificate is saved, and for a certain amount of time, only this certificate is allowed for this domain. Therefore it is not possible to fall for a fake certificate in this time.
 
 **5.2.** (2 points)
 When could a MitM attack succeed even if HPKP is used?
 
+If the attacker was the first to send you the certificate, before the original owner. Then you would save the fake certificate, you silly.
 
-*Solution:* Your solution here
 
 **5.3.** (3 points)
 Sometimes managing HPKP policies can be problematic. The administrators
@@ -199,8 +192,7 @@ max-age=31536000; includeSubDomains
 ```
 
 
-*Solution:* Your solution here
-
+Maybe they just renewed their certificate, then it is different of course
 ### Question 6 
 In 2018, the CEO of Trustico (a SSL certificate reseller) sent 23,000
 private keys in an e-mail to DigiCert[1] after DigiCert refused to
@@ -214,15 +206,15 @@ There are many security concerns with the CEO’s action. Firstly, what can be
 done with a compromised private key? What is the biggest concern regarding bad
 practices in Trustico [Hint: think about who usually knows private keys]?
 
+One can use the private keys to mimic ubs.ch, they can use their real certificate and then just encrypt their answers with the stolen private key
 
-*Solution:* Your solution here
+Private keys should not be laying around, they should be encrypted and saved somewhere save
 
 **6.2.** (1 points)
 Why are root certificates used only to sign intermediate
 certificates, and not all other certificates?
 
-
-*Solution:* Your solution here
+It would be to much overhead
 
 ### Question 7 
 Git[1] is a version control system. Git relies strongly on SHA-1 for
@@ -239,8 +231,7 @@ documents, *d*<sub>1</sub> ≠ *d*<sub>2</sub>, such that
 *SHA*<sub>1</sub>(*d*<sub>1</sub>) = *SHA*<sub>1</sub>(*d*<sub>2</sub>).
 Which (desirable) property of an hash function has been violated?
 
-
-*Solution:* Your solution here
+Strong Collision Resistance
 
 **7.2.** (2 points)
 A malicious user has access to a GIT repository. The user can push a
@@ -249,8 +240,7 @@ Knowing that GIT will only rely on the SHA-1 of the commit for
 identifying it, how could the malicious user exploit the SHA-1 weakness
 to insert malicious code in the repository?
 
-
-*Solution:* Your solution here
+He could take a search for a commit soon to be merged and construct an own commit with malicious code and the same hash and commit it.
 
 **7.3.** (1 points)
 Some applications keep using SHA-1 — in fact it is believed to be hard,
@@ -260,15 +250,13 @@ given a document *d*<sub>1</sub>, to find a second document
 Which property of an hash function SHA-1 still appears to be able to
 guarantee?
 
-
-*Solution:* Your solution here
+Week Collision Resistance
 
 **7.4.** (2 points)
 If somehow second pregame resistance of SHAH-1 were to be broken, what
 would be the effect on GIT?
 
-
-*Solution:* Your solution here
+WTF is pregame? :flushed:
 
 ### Question 8 (4 points)
 Let *h* be a cryptographic hash function. The probability of a collision
@@ -277,12 +265,11 @@ computing power, and can only generate *n* = 2<sup>*k*</sup>, *k* &gt;�
 messages and the relative hashes. Calculate the probability of:
 
 -   an hash collision between the *n* generated messages and a given
-    message *m*
+    message *m* $\rightarrow 1-(1-p_c)^n$
 
 -   an hash collision between *n*/2 generated messages with a certain
-    content and the remaining *n*/2 messages.
+    content and the remaining *n*/2 messages. $\rightarrow 1-(1-(1-p_c)^{\frac{n}{2}}$
 
 In which case is the collision more likely?
 
-*Solution:* Your solution here
 
