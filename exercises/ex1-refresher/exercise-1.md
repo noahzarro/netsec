@@ -21,34 +21,41 @@ Concisely answer the following questions:
 Edward wants to prove to Laura he really is the sender of a message. What security property is he trying to achieve?  Which cryptographic primitive could he use?
 
 Authentication
-Sign with his private key
+
+e.g. RSA
 
 **1.2.** (2 points)
 Edward wants to send a secret message to Glenn---they cannot meet to exchange a key, but they deem it unlikely for the NSA to tamper with their messages on the fly[^1]. What security property are Edward and Glenn trying to achieve? Which cryptographic primitives could they use?
 
 [^1]: Not historically accurate
 
-*Solution*:    Your solution here... 
+Secrecy
+
+Diffie–Hellman
 
 **1.3.** (2 points)
 Edward wants to store records of his job assignments at NSA on his NAS. Which property ensures that nobody will alter the record before it reaches the NAS? Can you name a network protocol which provides this guarantee? (assume a fair use of the protocol)
 
-*Solution*: Your solution here... 
+Integrity
+
+MAC
 
 **1.4.** (2 points)
 Chelsea wants to share some documents with a journalist, without risking to be identified.  What security property is she trying to achieve?  Can you name a technology that could, in principle, protect her?
 
-*Solution*: Your solution here... 
+Anonymity
+
+Tor-Network
 
 ### Question 2 (2 points)
 Given a Merkle Hash Tree with n leaves, how many nodes need to be recomputed if a leaf is updated? (Assume a binary balanced fully populated tree).
 
-*Solution*: Your solution here... 
+$log_2 n$
 
 ### Question 3 (4 points)
 You are using AES in ECB mode to encrypt an uncompressed high-resolution image. What could go wrong?
 
-*Solution*: Your solution here... 
+The contours are still visible
 
 ### Question 4 
 You are writing a network protocol to control your server remotely---you decide to simply use AES in CBC mode to encrypt communication.
@@ -56,13 +63,13 @@ You are writing a network protocol to control your server remotely---you decide 
 **4.1.** (3 points)
 What could go wrong?
 
-*Solution*: Your solution here... 
+One could just resend my (encrypted) short commands
 
 **4.2 Bonus question.** (3 points)
 You learn from your past mistakes and decide to appropriately MAC all commands before encrypting them. Commands are padded to exactly fit in a block using standard PKCS7 padding. The server will report and error if the MAC verification fails, and a different error if padding verification fails. What could still go wrong?
 
-*Solution*: Your solution here... 
-
+One could exploit the system in the following way:
+Since the padding pattern is known, for every padding byte one can brute force the thing stuff idk
 ## Network refresher
 
 ### Question 5 

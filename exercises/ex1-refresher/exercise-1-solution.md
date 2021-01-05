@@ -70,17 +70,17 @@ You learn from your past mistakes and decide to appropriately MAC all commands b
 
 For example, let's again assume that there is a single ciphertext block. The attacker can brute-force the last byte of the plaintext in a block $`pt_{15}`$, manipulating the last byte of the IV, $`iv'_{15} = iv_{15} \oplus n_{15}`$, until she obtains a valid padding. Since
 
-```math
+$$
 pt_{15} = dec(ct_{15}) \oplus iv_{15}
 
 pt'_{15} = dec(ct_{15}) \oplus (iv_{15} \oplus n_{15})
-```
+$$
 
 the PKCS7 padding will be valid for $`n_{15} = 0, pt'_{15} = pt_{15}`$ and for $`n_{15} \ne 0, pt'_{15} = PKCS7(1) = \mathtt{0x01}`$. It follows from the latter that that:
 
-```math
+$$
 pt_{15} = dec(ct_{15}) \oplus iv_{15} = pt'_{15} \oplus n_{15} = PKCS(1) \oplus n_{15} = \mathtt{0x01} \oplus n_{15}
-```
+$$
 
 At most 255 (0x00 is valid as the original message is assumed to be valid) tries are necessary to brute-force the last byte $n_{15}$.
 We learn the last plaintext byte and thus directly all the other padding bytes (again assuming a valid original message).
