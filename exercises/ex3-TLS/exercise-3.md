@@ -76,36 +76,55 @@ your server's communications.
 
 `TLS_DH_WITH_AES_256_CBC_SHA`
 
+- **Key Exchange**: Diffie-Hellmann, no signature
+- **Symmetric Encryption**: AES with key length 256 and CBC
+- **MAC**: SHA
 
-*Solution:* Your solution here
+not secure, because SHA is SHA-0 and cracked
 
 **2.2.** (2 points)
 
 `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA`
 
 
-*Solution:* Your solution here
+- **Key Exchange**: Diffie-Hellmann with Elliptic Curve and RSA
+- **Symmetric Encryption**: AES with key length 128 and CBC
+- **MAC**: SHA
+
+not secure, because SHA is SHA-0 and cracked
 
 **2.3.** (2 points)
 
 `TLS_DHE_RSA_WITH_AES_128_GCM_SHA256`
 
+- **Key Exchange**: Diffie-Hellmann and RSA
+- **Symmetric Encryption**: AES with key length 128 and CBC
+- **MAC**: SHA256
 
-*Solution:* Your solution here
+seems legit
 
 **2.4.** (2 points)
 
 `TLS_DH_anon_WITH_DES_CBC_SHA`
 
+- **Key Exchange**: Diffie-Hellmann without signing
+- **Symmetric Encryption**: DES and CBC
+- **MAC**: SHA
 
-*Solution:* Your solution here
+not secure, because SHA is SHA-0 and cracked
+DES is depreciated
+
 
 **2.5.** (2 points)
 
 `TLS_RSA_WITH_RC4_128_MD5`
 
+- **Key Exchange**: RSA without signing
+- **Symmetric Encryption**: RC4 128, never heard
+- **MAC**: MD5
 
-*Solution:* Your solution here
+not secure, because MD5 is cracked
+
 
 ### Question 3 
 With each update to TLS, researchers fix more and more vulnerabilities and design flaws in the protocol
@@ -116,15 +135,14 @@ Answer the following questions on the attacker's capabilities, considering the a
 An attacker can drop packet on the network. Can they downgrade the
 negotiated TLS version?
 
-
-*Solution:* Your solution here
+No
 
 **3.2.** (2 points)
 An attacker can modify packets in the network. Can they downgrade the
 negotiated TLS version?
 
 
-*Solution:* Your solution here
+No, the finish hashes would be different
 
 **3.3.** (3 points)
 Some (buggy) legacy web servers used to close the connection when
@@ -134,22 +152,19 @@ the server, they would attempt a new TLS handshake, but with a lower TLS
 version number. What are the implications of this behaviour on downgrade
 attacks?
 
-
-*Solution:* Your solution here
+If you drop the first package now, the client would restart the connection with a lower TLS version
 
 **3.4.** (2 points)
 What is the fundamental reason why this an attack is possible? (Think
 about the content of the transcript when a fallback is executed)
 
-
-*Solution:* Your solution here
+Both sides reset their transcript if they start over with a new TLS version
 
 **3.5.** (3 points)
 What attack would be possible if we removed the transcript from the
 ClientFinished message, while retaining it in the ServerFinished?
 
-
-*Solution:* Your solution here
+None, since the server would be suspicious if the transcript would be missing  :thinking: 
 
 **3.6.** (2 points)
 We want to prevent downgrade attacks on modern servers, while still
@@ -157,13 +172,12 @@ maintaining compatibility with legacy servers that exhibit aberrant
 behaviour. What is a possible solution?
 
 
-*Solution:* Your solution here
+dunno :shrug:
 
 **3.7.** (2 points, bonus)
 Why should a downgrade to SSLv3 be prevented at all costs?
 
-
-*Solution:* Your solution here
+it is long depreciated
 
 ### Question 4 (4 points)
 You discover that your TLS library uses an insecure pseudo-random number

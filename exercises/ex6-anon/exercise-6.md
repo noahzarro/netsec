@@ -24,7 +24,8 @@ Bob, it is clear that they are using a particular ACS. Explain why this
 may not be considered an issue, and in what cases instead it could be a
 problem.
 
-*Solution:* Your solution here
+*Everybody can see that they are using an ACS, but they cannot make the connection between the two.
+But if they are the only ones using this specific ACS, it is obvious that they are communicating with each other.*
 
 **1.2.** (1 points)
 There are systems that try to disguise their traffic as regular web
@@ -33,7 +34,7 @@ one possible scenario where this could be useful.
 
 [1] <https://www.torproject.org/docs/pluggable-transports.html.en>
 
-*Solution:* Your solution here
+*And if a company/institution/country does not want their subjects to use anonymous communication it could just block every traffic corresponding to this ACS.*
 
 ### Question 2 (2 points)
 **Malicious relay**  
@@ -47,7 +48,9 @@ How can you verify whether Alice communicates with Bob over your server?
 Assume you can monitor traffic in different locations and can see the
 outer IP header data.
 
-*Solution:* Your solution here
+- If I am the only intermediate router, I can see it directly from the src and dst IPs
+- If they and every intermediate router is just forwarding their traffic and nothing else they can be detected via src/dst IP
+- strategically dropping packets in patterns and observe resending patterns
 
 ### Question 3 (2 points)
 **Circumvent anonymisation**  
@@ -106,13 +109,13 @@ users, and we will see the impact they have on Tor browser.
 What is a widely used technique to track users browsing across many
 websites? How can an advertising website use it to track your history?
 
-*Solution:* Your solution here
+They can offer me cookies. Those are sent to every new website I visit, and if they have the same script running (e.g. from facebook) this script will read my cookie and identify me
 
 **5.2.** (3 points)
 How can you defend yourself from tracking cookies? How do hardened
 browsers like the Tor Browser deal with this problem?
 
-*Solution:* Your solution here
+One can just not send any cookies (as a browser) On european pages it is possible to refuse to send cookies also as a user
 
 **5.3.** (4 points)
 As time went by, companies had to get clever as research caught on with
@@ -120,7 +123,7 @@ their sneaky practices. They figured out they could create fingerprints
 of users. How does it work? What information does it use? How does it
 collect it and how does it hamper your privacy?
 
-*Solution:* Your solution here
+It is possible to identify a user in many ways. The user sends a lot of information with it's request, and javascript can extract even more. E.g screen size, browser version, OS, language, and so on
 
 **5.4.** (1 points)
 Please go to <https://amiunique.org/> and run the test. Are you unique?
@@ -132,7 +135,8 @@ What’s the global percentage of unique devices?
 What could be a solution to the problem of fingerprinting? How does the
 Tor Browser deal with it?
 
-*Solution:* Your solution here
+Disable javascript is one solution.
+The Tor browser could just send some false information from time to time...
 
 **5.6.** (3 points)
 In a controversial blogpost, Google’s Chome Engineering Director

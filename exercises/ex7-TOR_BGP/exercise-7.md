@@ -19,20 +19,19 @@ The hand-in procedure is as follows:
 Exit relays often specify policies on outgoing connections. What could
 be a reason for an exit relay to enforce such a policy?
 
-*Solution:* Your solution here
+They can be made responsible if they download tons of child porn
 
 **1.2.** (1 points)
 Facebook has a hidden service called “facebookcorewwwi.onion". How and
 why did they get this specific URL? Why didn’t they use
 “facebook.onion”?
 
-*Solution:* Your solution here
+it is not possible to choose them, they are randomly generated. So they just tried dousends of names
 
 **1.3.** (2 points)
 The directory authorities limit the number of relays per subnet. Why?
 
-*Solution:* Your solution here
-
+To avoid spamming
 ### Question 2 
 **Tor: Malicious Exit Relay.**  
 One of the threats against Tor is posed by malicious exit relays. If
@@ -45,19 +44,20 @@ Assume that you access a website using HTTP on the public Internet
 through the Tor network. What threat does a malicious exit relay pose?
 To what extent would the use of HTTPS help in this case?
 
-*Solution:* Your solution here
+It can read/modify/repeat/drop/etc all packets
+HTTPS would stop it from accessing the content of the packets, they could only be dropped/repeated
 
 **2.2.** (2 points)
 Further assume that you maintain a webserver. How could you use this
 webserver to detect malicious exit relays?
 
-*Solution:* Your solution here
+Send traffic with fake sensitive content to the webserver and first check if it arrives unchanged, and second check the attacker tries to abuse it, i.e. log in to your webserver with your stolen fake credentials
 
 **2.3.** (2 points)
 Are malicious exit relays a problem when using a hidden service? Why/Why
 not?
 
-*Solution:* Your solution here
+No, because for the hidden ones do not use real exit relays. They also need some kind of entry relays, because the webserver establishes the connection.
 
 ### Question 3 
 **BGP: Business relationships.** This question covers the normal
@@ -80,14 +80,17 @@ why?
 ETH wants to send traffic to EPFL, which path(s) are probably used and
 why?
 
-*Solution:* Your solution here
+ETH - Swisscom - Sunrise - UZH
+
+the most preferred links are: Provider-Customer, Peer-Peer, Customer-Provider
 
 **3.3.** (2 points)
 ETH misconfigured their BGP router, and started advertising their
 connection to DT to Swisscom. What will happen to traffic from Swisscom
 to Sunrise or EPFL and why?
 
-*Solution:* Your solution here
+Swisscom - ETH - DT - Salt - EPFL
+Swisscom earns money if they send traffic to ETH
 
 ### Question 4 
 **Common BGP Attacks, I.** Prefix hijacks are the most common attacks in
@@ -113,12 +116,13 @@ in 2008[1].
 
 - (3 points) What happened? What were the consequences?
 
-*Solution:* Your solution here
+All Youtube traffic went to pakistan an probably just stayed there
 
 - (3 points) How did Youtube try to counteract this problem? Why is this generally
 ineffective?
 
-*Solution:* Your solution here
+They announced a same length prefix, this caused the traffic to be more or less geographically split into pakistan and original Youtube.
+
 
 **4.3.** 
 Often we do not know what was the purpose or the cause of the hijack.
@@ -128,13 +132,13 @@ This case[1] is another interesting case study from 2017.
 
 - (2 points) What happened? What were the most notable ASes involved?
 
-*Solution:* Your solution here
+Russia pulled all traffic to themselves.
+Swisscom
 
 - (2 points) Who discovered the anomalies? Which role do this kind of services have
 in BGP hijacks? Was it effective in this case?
 
-*Solution:* Your solution here
-
+BGP Stream, they observe everything
 ### Question 5 
 **BGP: Traffic engineering.** (You can take a look to the Networking
 Refresher if you forgot everything about BGP!)  
@@ -176,14 +180,14 @@ times to the AS-path. What would be the effect and why could this be
 useful? Remember that shorter AS-paths are generally preferred during
 routing.
 
-*Solution:* Your solution here
+It can for example outplay the MED rule
 
 **5.2.** (1 points)
 The AS-path is used for loop detection. If a router sees that it is
 already on the AS-path, it will not accept the advertisement. How can
 this fact be used to avoid your traffic to be routed over a specific AS?
 
-*Solution:* Your solution here
+If I want to announce my prefix, but do not want it to be routed over DT, i just add MyAS-DT-MyAS to the AS-path
 
 **5.3.** (2 points)
 Assume the AS topology depicted above.
@@ -195,4 +199,4 @@ How should AS 1 design its routing advertisements to carry out such an
 attack? Note that AS 1 only wants to eavesdrop, which means that the
 hijacked traffic should still be delivered to AS 5.
 
-*Solution:* Your solution here
+It would announce the AS5 prefix to AS3 and AS4 with an empty AS-path if possible, or otherwise just with AS1 in it. It would also include a MED of 0

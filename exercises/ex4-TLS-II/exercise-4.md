@@ -25,7 +25,7 @@ a possible way to recover the true length of the fragments? Think of the way
 you would write a function to remove the padding. (Note: it’s not a padding
 oracle)
 
-*Solution*: Your solution here.
+In the plaintext it is easy, from behind just skip all 0x00 bytes until ctype field -> len = pack_len - #skips - 1 or other byte -> len = pack_len
 
 **1.2.** (4 points)
 In the TLS 1.3 record protocol, the per-record nonce is based upon a
@@ -34,7 +34,7 @@ In the TLS 1.3 record protocol, the per-record nonce is based upon a
 - (1 points)
 The counter always starts at 0. Why is this not a problem?
 
-*Solution*: Your solution here.
+Because it is XORed with the IV, which is itself randomly generated at the beginning of the TLS connection. So one random element suffices
 
 - (1 points)
 Given an average record length of 100 bytes and a modern connection
@@ -42,12 +42,12 @@ speed of 100Mb/s, and ignoring the fact that any sane TLS implementation
 would terminate the connection earlier, how many years would it take to
 reset the counter back to 0?
 
-*Solution*: Your solution here.
+around 584942 years
 
 - (2 points)
 What would happen if some records were to be reordered?
 
-*Solution*: Your solution here.
+One the receiver could restore the order again with the sequence number
 
 ### Question 2
 
@@ -67,13 +67,13 @@ LOGIN\_COOKIE=/16 byte value/) and stores recent request data in nearby
 memory locations. How would you use Heartbleed to hijack a session of
 someone who logged in recently?
 
-*Solution*: Your solution here.
+I would send the buffer with "GITTER GATTER GOTTER, THE SERVER FRISST NUME BOTTER" and tell the server to send me back the first 67 bytes of my buffer. Then the last 16 characters of the response would be the cookie
 
 **2.2.** (1 points)
 Does client authentication (e.g., using client certificates) offer
 protection against Heartbleed?
 
-*Solution*: Your solution here.
+Then no cookies would have to be saved, but an attacker could still get the servers memory
 
 **2.3.** (2 points)
 Let’s assume that you always used a cipher suite with Ephemeral
@@ -83,7 +83,7 @@ leaked using Heartbleed. Your adversary has recorded your previous
 communications to the same web service. Can he decrypt those messages?
 What if you had not used a cipher suite with PFS?
 
-*Solution*: Your solution here.
+No, DHE has perfect forward security. If I had not used a PFS cipher, then the attacker could read my already sent messages
 
 ### Question 3
 
@@ -116,7 +116,9 @@ C code?
             return err;
     }
 
-*Solution*: Your solution here.
+- They use different styles for `uint8_t` and `UInt16`
+- They use `goto`
+- They have two `goto fail;` statements, the second one is always executed
 
 **3.2.** (3 points)
 What kind of attack can take advantage of this bug? You can find a hint
@@ -181,7 +183,7 @@ database of all the issued tickets information and the relative PSK.
 Once a client uses the PSK in a resumption handshake, it is removed from
 the database. Is this server vulnerable to 0-RTT data replay?
 
-*Solution*: Your solution here.
+No since the time the 0-RT message is recorded the corresponding PSK is deleted
 
 **4.2.** (2 points)
 The administrators of the server from the previous question ran out of
@@ -194,7 +196,7 @@ the server with the label, and the secret can now decrypt all the
 information it needs to resume the session. Is the server now vulnerable
 to 0-RTT data replay?
 
-*Solution*: Your solution here.
+Yes, since the server can not control how many times a PSK can be reused an attacker can just replay everything
 
 **4.3.** (2 points)
 Alice is regularly paying her bills using the eBanking services. To
@@ -206,7 +208,9 @@ Mallory. Mallory is able to record connection between Alice’s computer
 and the server of the eBanking service. What can Mallory do with the
 recorded packets? What could the bank do to prevent this?
 
-*Solution*: Your solution here.
+He could just resend everything again. Then his ass will be fried, because Alice will probably notice it if she views her finance overview and she seems to know him
+
+The bank could implement their ebanking client to attach a nonce to every transaction and can like this detect duplicated transactions
 
 **4.4.** (5 points)
 Your favorite cloud provider announces its web hosting will switch to
@@ -226,21 +230,22 @@ reconnect with a full handshake if the PSK handshake is rejected.
 
 *Hint: consider what happens on connection failure.*
 
-*Solution*: Your solution here.
+The client connects to the server A and gets a PSK. 
+Then it connects again, the connection is recorded by the attacker, but fails because server A is offline.
+I this state the attacker has a fresh PSK communication snippet to replay.
 
 **4.5.** (3 points)
 We know that TLS 1.3 resumption handshake offers an optional (EC)DHE key
 exchange, for the sake of forward security. Are 0-RTT data forward
 secret in a resumption (EC)DHE exchange? Justify your answer.
 
-*Solution*: Your solution here.
+No, this data is still encrypted with the PSK and not yet with the newly generated keys over DHE. So if the PSK is leaked, the 0-RTT data can be decrypted
 
 **4.6.** (3 points)
 Can a TLS 1.3 resumption handshake without (EC)DHE key exchange be
 replayed in its entirety? Justify your answer.
 
-*Solution*: Your solution here.
-
+No, there is a nonce in the session ticket
 
 ### Question 5 (bonus)
 
